@@ -64,7 +64,6 @@ An app that lets users create random playlists that fit in with their needs.
    * ...
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
 <img src="https://github.com/AkselCan/DiscoTunery/blob/main/WireFrames.jpg?raw=true" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
