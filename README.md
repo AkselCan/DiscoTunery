@@ -74,6 +74,8 @@ An app that lets users create random playlists that fit in with their needs.
 
 ### Models
 #### Playlists
+| Property      | Type     | Description |
+| ------------- | -------- | ------------|
 | songNum     | Number | number of songs in a playlist |
 | createdAt     | DateTime | date when a playlist is created (default field) |
 | updatedAt     | DateTime | date when a playlist is last updated (default field) |
