@@ -115,7 +115,7 @@ An app that lets users create random playlists that fit in with their needs.
  | followsCount    | Number   | number of follows for an artist |
 
 ### Networking
-## Add list of network requests by screen 
+### Add list of network requests by screen 
 #### Home Screen
 -[ ] (GET/Read) Playlists where user is the owner and sisplay them by date (teh newest at teh top of the screen).
 -[ ] (Delete) Delete a Playlist from the My Playlists list.
