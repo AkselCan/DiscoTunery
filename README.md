@@ -115,7 +115,24 @@ An app that lets users create random playlists that fit in with their needs.
  | followsCount    | Number   | number of follows for an artist |
 
 ### Networking
-- [Add list of network requests by screen ]
+## Add list of network requests by screen 
+# Home Screen
+-(GET/Read) Playlists where user is the owner and sisplay them by date (teh newest at teh top of the screen).
+-(Delete) Delete a Playlist from the My Playlists list.
+
+# Create Screen
+-(Get/Read) Random lists of name and artists of music by using the Spotify API calls.
+-(Create) Create a like/dislike for each song displayed
+-(GET/Read) read and play part of the song by using the Instagram API calls.
+-(Create) Create a playlist from the liked songs and join it with the Playlist Radio API call from Spotify.
+-(Update/PUT) Update the automated name for the Playlist (Playlist number) and give the user the option to rename.
+-(Update/PUT) Update the home screen and add the playlist to the top of the screen.
+
+# Setting Screen
+-(GET/Read) the username and the profile image.
+-(Update/PUT) the profile image and the username by asking them to logging in first beforehand.
+
+
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
 
