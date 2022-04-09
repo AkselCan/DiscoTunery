@@ -71,6 +71,7 @@ An app that lets users create random playlists that fit in with their needs.
 <img src="https://github.com/AkselCan/DiscoTunery/blob/main/WireFrames.jpg?raw=true" width=600>
 
 ### [BONUS] Interactive Prototype
+<img src="https://github.com/vietbui1999ru/DiscoTunery/blob/main/DiscoTuneryPrototype%20walkthrough.gif" width=600>
 
 ## Schema 
 
