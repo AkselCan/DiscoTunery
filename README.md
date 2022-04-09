@@ -71,9 +71,47 @@ An app that lets users create random playlists that fit in with their needs.
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
-[Add table of models]
+#### Playlists
+| songNum     | Number | number of songs in a playlist |
+| createdAt     | DateTime | date when a playlist is created (default field) |
+| updatedAt     | DateTime | date when a playlist is last updated (default field) |
+| deletedAt     | DateTime | date when a playlist is deleted (default field) |
+   
+#### Users
+
+ | Property      | Type     | Description |
+ | ------------- | -------- | ------------|
+ | userId       | String   | unique id for a user |
+ | first_name       | String   | first name of a user |
+ | last_name       | String   | last name of a user |
+ 
+ 
+ #### Songs
+
+ | Property      | Type     | Description |
+ | ------------- | -------- | ------------|
+ | songId       | String   | unique id for a song |
+ | title       | String   | title of a song |
+ | artist_id       | String   | id(s) of artist(s) performing the song |
+ | year       | Number   | year a song came out |
+ | duration       | Number   | duration of a song |
+ | genre       | String   | genre of a song |
+ | picture         | File     | a song might have an image view |
+ | likesCount    | Number   | number of likes for a song |
+ 
+  #### Artists
+
+ | Property      | Type     | Description |
+ | ------------- | -------- | ------------|
+ | artistId       | String   | unique id for an artist |
+ | name       | String   | name of an artist |
+ | country       | String   | location of where an artist is based |
+ | genre       | String   | an artist's genre(s) |
+ | image         | File     | picture of an artist |
+ | followsCount    | Number   | number of follows for an artist |
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
