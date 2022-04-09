@@ -88,6 +88,10 @@ An app that lets users create random playlists that fit in with their needs.
  | userId       | String   | unique id for a user |
  | first_name       | String   | first name of a user |
  | last_name       | String   | last name of a user |
+ | fav_artist       | String   | id(s) of a user's favorite or preferred artist(s) |
+ | fav_song       | String   | id(s) of a user's favorite or preferred song(s) |
+ | fav_genre       | String   | a user's favorite or preferred genre(s) |
+
  
  
  #### Songs
