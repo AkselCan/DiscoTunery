@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DiscoTunery</string>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Paste BOTH strings as required -->
+    <string name="back4app_app_id">5J75oTaJ5JHR9FyjSZcVecTauuK0ZTTTqy2RchOD</string>
+    <string name="back4app_client_key">wocStdxjDrX1ID6DY1RfhVzAeSNcNeTEu0ZUIQJe</string>
+</resources>
