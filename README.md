@@ -143,9 +143,15 @@ An app that lets users create random playlists that fit in with their needs.
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
 
-## **Open-Source Libraries Used**
+### **Open-Source Libraries Used**
 
 -[Spotify SDK](https://developer.spotify.com/documentation/android/) - Spotify APIs and Android SDK (in Beta).
 
 -[Figma Demo](https://www.figma.com/file/1yNAdLrDpbm6iV0GTMuXZD/DiscoTunery?node-id=0%3A1) - Figma Demo of the App.
+
+## Gifs created to show build progress:
+
+### User can login into the app and make an account:
+
+<img src='Walkthrough_login_signup.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
