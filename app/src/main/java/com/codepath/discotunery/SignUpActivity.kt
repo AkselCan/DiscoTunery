@@ -21,7 +21,8 @@ class SignUpActivity : AppCompatActivity() {
         findViewById<Button>(R.id.SignUpButton).setOnClickListener {
             val username = findViewById<EditText>(R.id.et_username).text.toString()
             val password = findViewById<EditText>(R.id.et_password).text.toString()
-            signUpUser(username, password)
+            val cfm_password = findViewById<EditText>(R.id.cfm_password).text.toString()
+            signUpUser(username, password, cfm_password)
         }
 
     }
@@ -40,15 +41,17 @@ class SignUpActivity : AppCompatActivity() {
         finish()
     }
 
-    private fun signUpUser (username: String, password: String){
+    private fun signUpUser (username: String, password: String, cfm_password: String){
         // Create the ParseUser
-        val user = ParseUser()
+
+        if (validate(password, cfm_password)) {
+            val user = ParseUser()
 
         // Set fields for the user to be created
-        user.setUsername(username)
-        user.setPassword(password)
+            user.username = username
+            user.setPassword(password)
 
-        user.signUpInBackground { e ->
+            user.signUpInBackground { e ->
             if (e == null) {
                 goToMainActivity()
                 Log.i(TAG, "Successfully Signed Up")
@@ -57,8 +60,23 @@ class SignUpActivity : AppCompatActivity() {
                 // to figure out what went wrong
                 e.printStackTrace()
                 Toast.makeText(this, "Error Signing Up", Toast.LENGTH_SHORT).show()
+                }
             }
+        } else // Sign up didn't succeed. Look at the ParseException
+            // to figure out what went wrong
+// Set fields for the user to be created
+        {
+            Toast.makeText(this, "Password doesn't match", Toast.LENGTH_SHORT).show()
+
         }
+    }
+
+    private fun validate(password: String, cfm_password: String): Boolean {
+        var temp = true
+        if (password != cfm_password) {
+            temp = false
+        }
+        return temp
     }
 
     companion object{
