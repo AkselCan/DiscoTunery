@@ -6,4 +6,7 @@
     <!-- Paste BOTH strings as required -->
     <string name="back4app_app_id">5J75oTaJ5JHR9FyjSZcVecTauuK0ZTTTqy2RchOD</string>
     <string name="back4app_client_key">wocStdxjDrX1ID6DY1RfhVzAeSNcNeTEu0ZUIQJe</string>
+    
+    <string name="spotify_client_id">725653da54b6467dac0ccc4394c97852</string>
+    <string name="spotify_api_secret">8e14eca04eda4fd885359f28b9558c0c</string>
 </resources>
