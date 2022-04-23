@@ -11,7 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:menu="@menu/menu_bottom_navigation" />
+        app:menu="@menu/menu_bottom_navigation"
+        app:itemBackground="@color/gradient_bottom"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="409dp"
