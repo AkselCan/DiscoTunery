@@ -1,10 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.DiscoTunery" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-<<<<<<< HEAD
-=======
 
->>>>>>> b1544c2dac637c130bb4cdd41d6e878f1084d3d1
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_200</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -14,12 +11,11 @@
         <item name="colorSecondaryVariant">@color/teal_200</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-<<<<<<< HEAD
         <item name="android:statusBarColor">@android:color/transparent</item>
-=======
-        <item name="android:statusBarColor"> @color/dark_background</item>
 
->>>>>>> b1544c2dac637c130bb4cdd41d6e878f1084d3d1
         <!-- Customize your theme here. -->
+    </style>
+    <style name= "Theme.AppCompat.ScreenLauncher">
+        <item name="android:background">@drawable/gradient_background</item>
     </style>
 </resources>
