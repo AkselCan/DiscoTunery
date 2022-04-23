@@ -10,6 +10,9 @@
     <color name="dark_background">#1E1E1E</color>
     <color name="gray">#808080</color>
     <color name="logo_purple">#7362ef</color>
-
+    <color name="spotify_dark_green">#1DB954</color>
+    <color name="spotify_light_green">#1ED760</color>
+    <color name="spotify_white">#FFFFFF</color>
+    <color name="spotify_black">#191414</color>
 
 </resources>

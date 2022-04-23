@@ -153,5 +153,5 @@ An app that lets users create random playlists that fit in with their needs.
 
 ### User can login into the app and make an account:
 
-<img src='Walkthrough_login_signup.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/AkselCan/DiscoTunery/blob/Viet/DiscoTunery%20sign_in%20sign_up%20screens.gif' title='Video Walkthrough' width='600' alt='Video Walkthrough' />
 
