@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1078562317736",
+    "project_id": "discotunery",
+    "storage_bucket": "discotunery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078562317736:android:a9f787fa86ee500a92299d",
+        "android_client_info": {
+          "package_name": "com.codepath.discotunery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078562317736-ip6r03ih2v1ngu5ia0g76m4cm2t8vhav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzOGeqSMcK2Ib0Mw9OncjOQ01HWWemJ7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078562317736-ip6r03ih2v1ngu5ia0g76m4cm2t8vhav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
